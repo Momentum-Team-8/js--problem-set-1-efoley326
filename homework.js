@@ -33,11 +33,14 @@ else {return false}
 // temperature in Celsius.
 function fahrenheitToCelsius (number)
 
-{ return number - 32 * (5/9) ; }
+{ return (number - 32) * (5/9) ; }
 
 // 7. Create a function called celsiusToFahrenheit that takes a
 // Celsius temperature as an argument and returns the
 // temperature in Fahrenheit.
+function celsiusToFahrenheit (number)
+
+{ return (number * (9/5)) + 32 ; }
 
 // 8. Create a function called fahrenheitToKelvin that takes a
 // Fahrenheit temperature as an argument and returns the
