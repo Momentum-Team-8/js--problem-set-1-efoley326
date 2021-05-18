@@ -73,7 +73,9 @@ return "¡Hola, " + (name) + "!"
 if (Langcode === "fr") 
 return "Bonjour, " + (name) + "!"
 if (Langcode === "eo") 
-return "Saluton, " + (name) + "!" ;
+return "Saluton, " + (name) + "!" 
+else
+return;
 }
 
 //
