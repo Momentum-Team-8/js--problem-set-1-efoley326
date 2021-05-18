@@ -1,8 +1,10 @@
 // 1. Set the variable `givenName` to the string "Addison".
-let "givenName" = "Addison"
+
+let givenName = "Addison";
 
 // 2. Set candies equal to 20, people to 6, and leftover equal
 // to the remainder of dividing 20 by 6.
+
 let "candies" = 20
 let "people" = 6
 let "leftover" = 20%6
@@ -65,17 +67,18 @@ else return number2 ; }
 // in the specified language. The supported languages and their
 // translations are below.
 function multigreeting (name, Langcode)
-
+{
 { if (Langcode === "en") 
-return "Hello, " + (name) + "!"
-if (Langcode === "es") 
-return "¡Hola, " + (name) + "!"
-if (Langcode === "fr") 
-return "Bonjour, " + (name) + "!"
-if (Langcode === "eo") 
-return "Saluton, " + (name) + "!" 
+return "Hello, " + (name) + "!"}
+{if (Langcode === "es") 
+return "¡Hola, " + (name) + "!"}
+{if (Langcode === "fr") 
+return "Bonjour, " + (name) + "!"}
+{if (Langcode === "eo") 
+return "Saluton, " + (name) + "!"}
 else
-return;
+{return;
+}
 }
 
 //
@@ -112,3 +115,6 @@ return;
 
 // Write a function called gcd that takes two arguments and returns the greatest common
 // divisor using the instructions above.
+
+function gcd (number1, number2)
+
